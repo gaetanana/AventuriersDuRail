@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="456.0" prefWidth="206.0" type="VBox" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="109.8" prefWidth="200.0">
+         <children>
+            <VBox fx:id="cadreJoueur1" prefHeight="110.0" prefWidth="219.0" style="-fx-background-color: red; -fx-background-radius: 10;">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+               <children>
+                  <HBox prefHeight="66.0" prefWidth="186.0">
+                     <children>
+                        <HBox prefHeight="60.0" prefWidth="60.0">
+                           <children>
+                              <ImageView fx:id="imageJoueur1" fitHeight="61.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="61.0" prefWidth="120.0">
+                           <children>
+                              <VBox prefHeight="61.0" prefWidth="126.0">
+                                 <children>
+                                    <HBox prefHeight="38.0" prefWidth="120.0">
+                                       <children>
+                                          <HBox alignment="CENTER" prefHeight="38.0" prefWidth="59.0">
+                                             <children>
+                                                <Label fx:id="pointJ1" />
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER" prefHeight="38.0" prefWidth="58.0">
+                                             <children>
+                                                <Label text="Point" />
+                                             </children>
+                                          </HBox>
+                                       </children></HBox>
+                                    <HBox prefHeight="23.0" prefWidth="120.0">
+                                       <children>
+                                          <Label fx:id="nomJoueur1" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="120.0" textAlignment="CENTER">
+                                             <font>
+                                                <Font name="Georgia Pro Black" size="12.0" />
+                                             </font></Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="36.0" prefWidth="186.0">
+                     <children>
+                        <HBox prefHeight="30.0" prefWidth="95.0">
+                           <children>
+                              <HBox alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="54.0">
+                                 <children>
+                                    <ImageView fx:id="imagegarej1" fitHeight="30.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="31.0" prefWidth="70.0">
+                                 <children>
+                                    <Label fx:id="nbgarej1" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="93.0">
+                           <children>
+                              <HBox prefHeight="30.0" prefWidth="49.0">
+                                 <children>
+                                    <ImageView fx:id="imagewagonj1" fitHeight="30.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="53.0">
+                                 <children>
+                                    <Label fx:id="nbwagonj1" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children></HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="109.8" prefWidth="200.0">
+         <children>
+            <VBox fx:id="cadreJoueur2" prefHeight="110.0" prefWidth="219.0" style="-fx-background-color: red; -fx-background-radius: 10;">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+               <children>
+                  <HBox prefHeight="66.0" prefWidth="186.0">
+                     <children>
+                        <HBox prefHeight="60.0" prefWidth="60.0">
+                           <children>
+                              <ImageView fx:id="imageJoueur2" fitHeight="61.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="61.0" prefWidth="120.0">
+                           <children>
+                              <VBox prefHeight="61.0" prefWidth="126.0">
+                                 <children>
+                                    <HBox prefHeight="38.0" prefWidth="120.0">
+                                       <children>
+                                          <HBox alignment="CENTER" prefHeight="38.0" prefWidth="62.0">
+                                             <children>
+                                                <Label fx:id="pointJ2" />
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER" prefHeight="38.0" prefWidth="57.0">
+                                             <children>
+                                                <Label text="Point" />
+                                             </children>
+                                          </HBox>
+                                       </children></HBox>
+                                    <HBox prefHeight="23.0" prefWidth="120.0">
+                                       <children>
+                                          <Label fx:id="nomJoueur2" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="120.0" textAlignment="CENTER">
+                                             <font>
+                                                <Font name="Georgia Pro Black" size="12.0" />
+                                             </font></Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="36.0" prefWidth="186.0">
+                     <children>
+                        <HBox prefHeight="30.0" prefWidth="95.0">
+                           <children>
+                              <HBox alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="54.0">
+                                 <children>
+                                    <ImageView fx:id="imagegarej2" fitHeight="30.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="30.0" prefWidth="57.0">
+                                 <children>
+                                    <Label fx:id="nbgarej2" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="93.0">
+                           <children>
+                              <HBox prefHeight="30.0" prefWidth="49.0">
+                                 <children>
+                                    <ImageView fx:id="imagewagonj2" fitHeight="30.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="53.0">
+                                 <children>
+                                    <Label fx:id="nbwagonj2" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children></HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="109.8" prefWidth="200.0">
+         <children>
+            <VBox fx:id="cadreJoueur3" prefHeight="110.0" prefWidth="219.0" style="-fx-background-color: red; -fx-background-radius: 10;">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+               <children>
+                  <HBox prefHeight="66.0" prefWidth="186.0">
+                     <children>
+                        <HBox prefHeight="60.0" prefWidth="60.0">
+                           <children>
+                              <ImageView fx:id="imageJoueur3" fitHeight="61.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="61.0" prefWidth="120.0">
+                           <children>
+                              <VBox prefHeight="61.0" prefWidth="126.0">
+                                 <children>
+                                    <HBox prefHeight="38.0" prefWidth="120.0">
+                                       <children>
+                                          <HBox alignment="CENTER" prefHeight="38.0" prefWidth="62.0">
+                                             <children>
+                                                <Label fx:id="pointJ3" />
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER" prefHeight="38.0" prefWidth="57.0">
+                                             <children>
+                                                <Label text="Point" />
+                                             </children>
+                                          </HBox>
+                                       </children></HBox>
+                                    <HBox prefHeight="23.0" prefWidth="120.0">
+                                       <children>
+                                          <Label fx:id="nomJoueur3" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="120.0" textAlignment="CENTER">
+                                             <font>
+                                                <Font name="Georgia Pro Black" size="12.0" />
+                                             </font></Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="36.0" prefWidth="186.0">
+                     <children>
+                        <HBox prefHeight="30.0" prefWidth="95.0">
+                           <children>
+                              <HBox alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="54.0">
+                                 <children>
+                                    <ImageView fx:id="imagegarej3" fitHeight="30.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="30.0" prefWidth="57.0">
+                                 <children>
+                                    <Label fx:id="nbgarej3" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="93.0">
+                           <children>
+                              <HBox prefHeight="30.0" prefWidth="49.0">
+                                 <children>
+                                    <ImageView fx:id="imagewagonj3" fitHeight="30.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="53.0">
+                                 <children>
+                                    <Label fx:id="nbwagonj3" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children></HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="109.8" prefWidth="200.0">
+         <children>
+            <VBox fx:id="cadreJoueur4" prefHeight="110.0" prefWidth="219.0" style="-fx-background-color: red; -fx-background-radius: 10;">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+               <children>
+                  <HBox prefHeight="66.0" prefWidth="186.0">
+                     <children>
+                        <HBox prefHeight="60.0" prefWidth="60.0">
+                           <children>
+                              <ImageView fx:id="imageJoueur4" fitHeight="61.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="61.0" prefWidth="120.0">
+                           <children>
+                              <VBox prefHeight="61.0" prefWidth="126.0">
+                                 <children>
+                                    <HBox prefHeight="38.0" prefWidth="120.0">
+                                       <children>
+                                          <HBox prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <HBox alignment="CENTER" prefHeight="38.0" prefWidth="59.0">
+                                                   <children>
+                                                      <Label fx:id="pointJ4" />
+                                                   </children>
+                                                </HBox>
+                                                <HBox alignment="CENTER" prefHeight="38.0" prefWidth="62.0">
+                                                   <children>
+                                                      <Label text="Point" />
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </HBox>
+                                       </children></HBox>
+                                    <HBox prefHeight="23.0" prefWidth="120.0">
+                                       <children>
+                                          <Label fx:id="nomJoueur4" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="120.0" textAlignment="CENTER">
+                                             <font>
+                                                <Font name="Georgia Pro Black" size="12.0" />
+                                             </font></Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="36.0" prefWidth="186.0">
+                     <children>
+                        <HBox prefHeight="30.0" prefWidth="95.0">
+                           <children>
+                              <HBox alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="54.0">
+                                 <children>
+                                    <ImageView fx:id="imagegarej4" fitHeight="30.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="30.0" prefWidth="57.0">
+                                 <children>
+                                    <Label fx:id="nbgarej4" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="93.0">
+                           <children>
+                              <HBox prefHeight="30.0" prefWidth="49.0">
+                                 <children>
+                                    <ImageView fx:id="imagewagonj4" fitHeight="30.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="53.0">
+                                 <children>
+                                    <Label fx:id="nbwagonj4" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children></HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="109.8" prefWidth="200.0">
+         <children>
+            <VBox fx:id="cadreJoueur5" prefHeight="110.0" prefWidth="219.0" style="-fx-background-color: red; -fx-background-radius: 10;">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+               <children>
+                  <HBox prefHeight="66.0" prefWidth="186.0">
+                     <children>
+                        <HBox prefHeight="60.0" prefWidth="60.0">
+                           <children>
+                              <ImageView fx:id="imageJoueur5" fitHeight="61.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="61.0" prefWidth="120.0">
+                           <children>
+                              <VBox prefHeight="61.0" prefWidth="126.0">
+                                 <children>
+                                    <HBox prefHeight="38.0" prefWidth="120.0">
+                                       <children>
+                                          <HBox alignment="CENTER" prefHeight="38.0" prefWidth="63.0">
+                                             <children>
+                                                <Label fx:id="pointJ5" />
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER" prefHeight="38.0" prefWidth="61.0">
+                                             <children>
+                                                <Label text="Point" />
+                                             </children>
+                                          </HBox>
+                                       </children></HBox>
+                                    <HBox prefHeight="23.0" prefWidth="120.0">
+                                       <children>
+                                          <Label fx:id="nomJoueur5" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="120.0" textAlignment="CENTER">
+                                             <font>
+                                                <Font name="Georgia Pro Black" size="12.0" />
+                                             </font></Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="36.0" prefWidth="186.0">
+                     <children>
+                        <HBox prefHeight="30.0" prefWidth="95.0">
+                           <children>
+                              <HBox alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="54.0">
+                                 <children>
+                                    <ImageView fx:id="imagegarej5" fitHeight="30.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="30.0" prefWidth="57.0">
+                                 <children>
+                                    <Label fx:id="nbgarej5" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="30.0" prefWidth="93.0">
+                           <children>
+                              <HBox prefHeight="30.0" prefWidth="49.0">
+                                 <children>
+                                    <ImageView fx:id="imagewagonj5" fitHeight="30.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" prefHeight="30.0" prefWidth="53.0">
+                                 <children>
+                                    <Label fx:id="nbwagonj5" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </HBox>
+                     </children></HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</fx:root>
